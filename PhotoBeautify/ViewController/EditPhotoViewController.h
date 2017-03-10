@@ -10,4 +10,6 @@
 
 @interface EditPhotoViewController : UIViewController
 
+- (instancetype)init:(NSArray*)assets;
+
 @end

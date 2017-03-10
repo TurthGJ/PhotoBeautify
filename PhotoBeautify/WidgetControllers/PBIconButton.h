@@ -10,4 +10,6 @@
 
 @interface PBIconButton : UIControl
 
+- (instancetype)init:(UIImage*)imgae title:(NSString*)title;
+
 @end

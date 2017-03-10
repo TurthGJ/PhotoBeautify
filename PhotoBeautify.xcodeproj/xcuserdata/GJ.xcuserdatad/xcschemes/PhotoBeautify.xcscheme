@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "274FC83B1E669E2200286B03"
+               BuildableName = "PhotoBeautify.app"
+               BlueprintName = "PhotoBeautify"
+               ReferencedContainer = "container:PhotoBeautify.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "274FC8541E669E2200286B03"
+               BuildableName = "PhotoBeautifyTests.xctest"
+               BlueprintName = "PhotoBeautifyTests"
+               ReferencedContainer = "container:PhotoBeautify.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "274FC85F1E669E2200286B03"
+               BuildableName = "PhotoBeautifyUITests.xctest"
+               BlueprintName = "PhotoBeautifyUITests"
+               ReferencedContainer = "container:PhotoBeautify.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "274FC83B1E669E2200286B03"
+            BuildableName = "PhotoBeautify.app"
+            BlueprintName = "PhotoBeautify"
+            ReferencedContainer = "container:PhotoBeautify.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "274FC83B1E669E2200286B03"
+            BuildableName = "PhotoBeautify.app"
+            BlueprintName = "PhotoBeautify"
+            ReferencedContainer = "container:PhotoBeautify.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "274FC83B1E669E2200286B03"
+            BuildableName = "PhotoBeautify.app"
+            BlueprintName = "PhotoBeautify"
+            ReferencedContainer = "container:PhotoBeautify.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

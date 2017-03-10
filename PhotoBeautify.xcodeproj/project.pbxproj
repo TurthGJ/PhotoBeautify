@@ -9,12 +9,20 @@
 /* Begin PBXBuildFile section */
 		274FC8411E669E2200286B03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 274FC8401E669E2200286B03 /* main.m */; };
 		274FC8441E669E2200286B03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 274FC8431E669E2200286B03 /* AppDelegate.m */; };
-		274FC8471E669E2200286B03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 274FC8461E669E2200286B03 /* ViewController.m */; };
 		274FC84A1E669E2200286B03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 274FC8481E669E2200286B03 /* Main.storyboard */; };
 		274FC84C1E669E2200286B03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274FC84B1E669E2200286B03 /* Assets.xcassets */; };
 		274FC84F1E669E2200286B03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 274FC84D1E669E2200286B03 /* LaunchScreen.storyboard */; };
 		274FC85A1E669E2200286B03 /* PhotoBeautifyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 274FC8591E669E2200286B03 /* PhotoBeautifyTests.m */; };
 		274FC8651E669E2200286B03 /* PhotoBeautifyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 274FC8641E669E2200286B03 /* PhotoBeautifyUITests.m */; };
+		274FC8771E66A95200286B03 /* EntranceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 274FC8761E66A95200286B03 /* EntranceViewController.m */; };
+		274FC87B1E66A9E300286B03 /* PBIconButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 274FC87A1E66A9E300286B03 /* PBIconButton.m */; };
+		274FC87E1E67E45100286B03 /* EditPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 274FC87D1E67E45100286B03 /* EditPhotoViewController.m */; };
+		274FC8841E6A9F0C00286B03 /* EditPhotoToolBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 274FC8831E6A9F0B00286B03 /* EditPhotoToolBarItem.m */; };
+		27938FB01E6EDF8A0039868B /* FilterPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27938FAF1E6EDF8A0039868B /* FilterPickerViewController.m */; };
+		27938FB51E71596F0039868B /* BubblePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27938FB41E71596F0039868B /* BubblePickerViewController.m */; };
+		27938FB81E7159810039868B /* StickerPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27938FB71E7159810039868B /* StickerPickerViewController.m */; };
+		27938FBC1E7241650039868B /* UIImage+AddAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 27938FBB1E7241650039868B /* UIImage+AddAsset.m */; };
+		57570E9FD9DF6C5C3679B01B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82012913C0722EC90E194210 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +47,6 @@
 		274FC8401E669E2200286B03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		274FC8421E669E2200286B03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		274FC8431E669E2200286B03 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		274FC8451E669E2200286B03 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		274FC8461E669E2200286B03 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		274FC8491E669E2200286B03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		274FC84B1E669E2200286B03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		274FC84E1E669E2200286B03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +57,26 @@
 		274FC8601E669E2200286B03 /* PhotoBeautifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoBeautifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		274FC8641E669E2200286B03 /* PhotoBeautifyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoBeautifyUITests.m; sourceTree = "<group>"; };
 		274FC8661E669E2200286B03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		274FC8751E66A95200286B03 /* EntranceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntranceViewController.h; sourceTree = "<group>"; };
+		274FC8761E66A95200286B03 /* EntranceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntranceViewController.m; sourceTree = "<group>"; };
+		274FC8791E66A9E300286B03 /* PBIconButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBIconButton.h; sourceTree = "<group>"; };
+		274FC87A1E66A9E300286B03 /* PBIconButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBIconButton.m; sourceTree = "<group>"; };
+		274FC87C1E67E45100286B03 /* EditPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditPhotoViewController.h; sourceTree = "<group>"; };
+		274FC87D1E67E45100286B03 /* EditPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditPhotoViewController.m; sourceTree = "<group>"; };
+		274FC87F1E6A446000286B03 /* LDDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDDefine.h; sourceTree = "<group>"; };
+		274FC8821E6A9F0B00286B03 /* EditPhotoToolBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditPhotoToolBarItem.h; sourceTree = "<group>"; };
+		274FC8831E6A9F0B00286B03 /* EditPhotoToolBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditPhotoToolBarItem.m; sourceTree = "<group>"; };
+		27938FAE1E6EDF8A0039868B /* FilterPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterPickerViewController.h; sourceTree = "<group>"; };
+		27938FAF1E6EDF8A0039868B /* FilterPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterPickerViewController.m; sourceTree = "<group>"; };
+		27938FB31E71596F0039868B /* BubblePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BubblePickerViewController.h; sourceTree = "<group>"; };
+		27938FB41E71596F0039868B /* BubblePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BubblePickerViewController.m; sourceTree = "<group>"; };
+		27938FB61E7159810039868B /* StickerPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StickerPickerViewController.h; sourceTree = "<group>"; };
+		27938FB71E7159810039868B /* StickerPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StickerPickerViewController.m; sourceTree = "<group>"; };
+		27938FBA1E7241650039868B /* UIImage+AddAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AddAsset.h"; sourceTree = "<group>"; };
+		27938FBB1E7241650039868B /* UIImage+AddAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AddAsset.m"; sourceTree = "<group>"; };
+		80B3D8C0C003021DE50F38B6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		82012913C0722EC90E194210 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		83DCA5B2DC025419F0321367 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57570E9FD9DF6C5C3679B01B /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +112,8 @@
 				274FC8581E669E2200286B03 /* PhotoBeautifyTests */,
 				274FC8631E669E2200286B03 /* PhotoBeautifyUITests */,
 				274FC83D1E669E2200286B03 /* Products */,
+				A5AC736345071D986E7C482C /* Pods */,
+				CA7283262F2D56A36DC853CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +130,12 @@
 		274FC83E1E669E2200286B03 /* PhotoBeautify */ = {
 			isa = PBXGroup;
 			children = (
+				274FC8801E6A455100286B03 /* PhotoBeautifyKit */,
+				274FC8781E66A99900286B03 /* WidgetControllers */,
+				274FC8741E66A95200286B03 /* ViewController */,
 				274FC8421E669E2200286B03 /* AppDelegate.h */,
 				274FC8431E669E2200286B03 /* AppDelegate.m */,
-				274FC8451E669E2200286B03 /* ViewController.h */,
-				274FC8461E669E2200286B03 /* ViewController.m */,
+				274FC87F1E6A446000286B03 /* LDDefine.h */,
 				274FC8481E669E2200286B03 /* Main.storyboard */,
 				274FC84B1E669E2200286B03 /* Assets.xcassets */,
 				274FC84D1E669E2200286B03 /* LaunchScreen.storyboard */,
@@ -140,6 +171,92 @@
 			path = PhotoBeautifyUITests;
 			sourceTree = "<group>";
 		};
+		274FC8741E66A95200286B03 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				274FC8751E66A95200286B03 /* EntranceViewController.h */,
+				274FC8761E66A95200286B03 /* EntranceViewController.m */,
+				274FC87C1E67E45100286B03 /* EditPhotoViewController.h */,
+				274FC87D1E67E45100286B03 /* EditPhotoViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		274FC8781E66A99900286B03 /* WidgetControllers */ = {
+			isa = PBXGroup;
+			children = (
+				274FC8791E66A9E300286B03 /* PBIconButton.h */,
+				274FC87A1E66A9E300286B03 /* PBIconButton.m */,
+			);
+			path = WidgetControllers;
+			sourceTree = "<group>";
+		};
+		274FC8801E6A455100286B03 /* PhotoBeautifyKit */ = {
+			isa = PBXGroup;
+			children = (
+				27938FB91E72411D0039868B /* Category */,
+				27938FB11E7159470039868B /* Bubble */,
+				27938FB21E7159470039868B /* Sticker */,
+				274FC8811E6A455100286B03 /* Filter */,
+				274FC8821E6A9F0B00286B03 /* EditPhotoToolBarItem.h */,
+				274FC8831E6A9F0B00286B03 /* EditPhotoToolBarItem.m */,
+			);
+			path = PhotoBeautifyKit;
+			sourceTree = "<group>";
+		};
+		274FC8811E6A455100286B03 /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				27938FAE1E6EDF8A0039868B /* FilterPickerViewController.h */,
+				27938FAF1E6EDF8A0039868B /* FilterPickerViewController.m */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		27938FB11E7159470039868B /* Bubble */ = {
+			isa = PBXGroup;
+			children = (
+				27938FB31E71596F0039868B /* BubblePickerViewController.h */,
+				27938FB41E71596F0039868B /* BubblePickerViewController.m */,
+			);
+			path = Bubble;
+			sourceTree = "<group>";
+		};
+		27938FB21E7159470039868B /* Sticker */ = {
+			isa = PBXGroup;
+			children = (
+				27938FB61E7159810039868B /* StickerPickerViewController.h */,
+				27938FB71E7159810039868B /* StickerPickerViewController.m */,
+			);
+			path = Sticker;
+			sourceTree = "<group>";
+		};
+		27938FB91E72411D0039868B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				27938FBA1E7241650039868B /* UIImage+AddAsset.h */,
+				27938FBB1E7241650039868B /* UIImage+AddAsset.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		A5AC736345071D986E7C482C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80B3D8C0C003021DE50F38B6 /* Pods.debug.xcconfig */,
+				83DCA5B2DC025419F0321367 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CA7283262F2D56A36DC853CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82012913C0722EC90E194210 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +264,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 274FC8691E669E2200286B03 /* Build configuration list for PBXNativeTarget "PhotoBeautify" */;
 			buildPhases = (
+				30603242BD08EB61063F4626 /* Check Pods Manifest.lock */,
 				274FC8381E669E2200286B03 /* Sources */,
 				274FC8391E669E2200286B03 /* Frameworks */,
 				274FC83A1E669E2200286B03 /* Resources */,
+				B39FC0330D3A07BC5B20381B /* Embed Pods Frameworks */,
+				548F78025A2D5BBB28B9A44E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,14 +391,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		30603242BD08EB61063F4626 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		548F78025A2D5BBB28B9A44E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B39FC0330D3A07BC5B20381B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		274FC8381E669E2200286B03 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				274FC8471E669E2200286B03 /* ViewController.m in Sources */,
+				27938FB51E71596F0039868B /* BubblePickerViewController.m in Sources */,
+				274FC87B1E66A9E300286B03 /* PBIconButton.m in Sources */,
+				27938FB01E6EDF8A0039868B /* FilterPickerViewController.m in Sources */,
 				274FC8441E669E2200286B03 /* AppDelegate.m in Sources */,
+				27938FB81E7159810039868B /* StickerPickerViewController.m in Sources */,
+				274FC87E1E67E45100286B03 /* EditPhotoViewController.m in Sources */,
+				27938FBC1E7241650039868B /* UIImage+AddAsset.m in Sources */,
 				274FC8411E669E2200286B03 /* main.m in Sources */,
+				274FC8771E66A95200286B03 /* EntranceViewController.m in Sources */,
+				274FC8841E6A9F0C00286B03 /* EditPhotoToolBarItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +598,7 @@
 		};
 		274FC86A1E669E2200286B03 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80B3D8C0C003021DE50F38B6 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VQHS8XG8LG;
@@ -435,6 +611,7 @@
 		};
 		274FC86B1E669E2200286B03 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83DCA5B2DC025419F0321367 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VQHS8XG8LG;
@@ -514,6 +691,7 @@
 				274FC86B1E669E2200286B03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		274FC86C1E669E2200286B03 /* Build configuration list for PBXNativeTarget "PhotoBeautifyTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +700,7 @@
 				274FC86E1E669E2200286B03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		274FC86F1E669E2200286B03 /* Build configuration list for PBXNativeTarget "PhotoBeautifyUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +709,7 @@
 				274FC8711E669E2200286B03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

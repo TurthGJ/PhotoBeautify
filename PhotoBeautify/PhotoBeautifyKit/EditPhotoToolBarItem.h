@@ -10,4 +10,7 @@
 
 @interface EditPhotoToolBarItem : UIControl
 
+@property(nonatomic,retain)UIView* line;
+- (instancetype)init:(UIImage*)image title:(NSString*)title;
+
 @end

@@ -8,6 +8,27 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FilterPickerViewController : UIViewController
+typedef NS_ENUM(NSInteger,FilterCellType) {
+    Original,
+    Sepia,
+    Posterize,
+    Crystal,
+    PixellateFace,
+    Count
+};
+
+@class FilterPickerViewController;
+
+@protocol FilterPickerViewControllerDelegate <NSObject>
+
+- (void)filterPickerViewController:(FilterPickerViewController*)filterPickerViewController didSelectFilter:(FilterCellType)filter;
 
 @end
+
+@interface FilterPickerViewController : UIViewController
+
+@property(weak,nonatomic)id<FilterPickerViewControllerDelegate>delegate;
+
+@end
+
+
